@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fa6502;
+    color: #131212;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+#titulo{
+    text-align: center;
+    padding: 0px;
+    text-decoration: underline;
+    font-size: 70px;
+    font-style: italic    ;
+
+}
+
+header {
+    background-color: #020202;
+    color: #fa6502;
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.rastreio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 70px;
+    background-color: #030303;
+    color: #fa6502;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
